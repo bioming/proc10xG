@@ -49,7 +49,7 @@ def make_sure_path_exists(path):
     return path
 
 
-rcs = string.maketrans('TAGCtagc', 'ATCGATCG')
+rcs = str.maketrans('TAGCtagc', 'ATCGATCG')
 
 
 def revcomp(seq):
